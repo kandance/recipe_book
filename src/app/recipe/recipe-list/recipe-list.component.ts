@@ -10,6 +10,11 @@ export class RecipeListComponent implements OnInit {
   recipe: Recipe[] = [
     new Recipe(
       'A Test Recipe',
+      'This is a test',
+      'https://suebeehomemaker.com/wp-content/uploads/2021/10/sliced-french-bread.jpg'
+    ),
+    new Recipe(
+      'A 2nd Test Recipe',
       'This is still a test',
       'https://suebeehomemaker.com/wp-content/uploads/2021/10/sliced-french-bread.jpg'
     ),
